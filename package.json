@@ -1,0 +1,55 @@
+{
+  "name": "zerodb-neon",
+  "version": "1.0.0",
+  "description": "Neon serverless Postgres compatible driver backed by ZeroDB. Same tagged template syntax, zero vendor lock-in, plus DB event triggers.",
+  "main": "index.cjs",
+  "module": "index.js",
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./index.js",
+      "require": "./index.cjs"
+    }
+  },
+  "files": [
+    "index.js",
+    "index.cjs",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test tests/neon.test.js",
+    "prepublishOnly": "npm test"
+  },
+  "keywords": [
+    "neon",
+    "neon-serverless",
+    "neon-alternative",
+    "postgres",
+    "postgresql",
+    "serverless-postgres",
+    "tagged-template",
+    "database-triggers",
+    "event-triggers",
+    "zerodb",
+    "ainative",
+    "auto-provisioning",
+    "migration",
+    "neon-to-zerodb",
+    "supabase-alternative",
+    "vector-database"
+  ],
+  "author": "AINative Studio",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AINative-Studio/zerodb-neon.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AINative-Studio/zerodb-neon/issues"
+  },
+  "homepage": "https://zerodb.ai",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
