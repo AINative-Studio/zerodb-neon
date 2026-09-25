@@ -1,6 +1,6 @@
 {
   "name": "zerodb-neon",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Neon serverless Postgres compatible driver backed by ZeroDB. Same tagged template syntax, zero vendor lock-in, plus DB event triggers.",
   "main": "index.cjs",
   "module": "index.js",
